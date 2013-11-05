@@ -19,7 +19,7 @@ class Jsonifiable:
   """Base class providing convenient JSON serialization and deserialization
   methods.
   """
-  jsonkind = 'photohunt#jsonifiable'
+  jsonkind = 'portal#jsonifiable'
 
   @staticmethod
   def lower_first(key):
